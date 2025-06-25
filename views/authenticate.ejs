@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Verification </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <br><br><br>
+        <div class = 'verify'>
+            <br>
+            <h3 style = "text-align: center;"> Sign In </h3>
+            <br><br>
+            <p style = "text-align: center;"> Guest users use - username: 12345, password abc</p>
+            <form autocomplete = "off" action = "/create-qr-code" class = "form" method = "post" style = "text-align: center;">
+            <input type = "text" name = "name" placeholder="Enter Name" style = "height: 50px; width: 300px;" required><br> <br>
+            <input type = "password" name = "pwd" placeholder="Enter Password" style = "height: 50px; width: 300px;" required>
+            <br><br>
+            <button name = "button" type = "submit" class = "btn btn-primary"> Submit </button>
+            </form>
+        </div>
+        <style>
+            body {
+                background-color: rgba(130, 131, 133, 0.2);
+            }
+        </style>  
+    </body>
+</html>
